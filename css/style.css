@@ -7,26 +7,32 @@ a:link {text-decoration: none}
 a:visited {text-decoration: underline;}
 a:hover {text-decoration: underline;}
 a:active {text-decoration: underline;}
-
 p {font-family: "Roboto" ; font-size: 18px; line-height: 2.25;}
-.header p {text-align: center; margin-top: 50px;}
-h2 {font-family: "Roboto Slab"; font-size: 32px; letter-spacing: 6pt; text-align: center; line-height: 2; margin: 0em;}
+.maincontent {float: left; padding: 50px; max-width: 95%;}
 
+#grad2 {height: 750px; background-image: linear-gradient(white,#ffe48b, white);}
+h2 {font-family: "Roboto Slab"; font-size: 32px; letter-spacing: 6pt; text-align: center; line-height: 2;}
 .flex-container {display: flex; justify-content: center;}
-.flex-container > div {margin: 30px; text-align: center;}   
-.flex-container pre {margin-right: 100px; margin-top: 30px;}                                                                                                                                                     
-.Works {width: 70px; height: 70px; border-radius:70px; text-align: center; background-color: black; padding: 15px;}
-.Works a {font-family: "Roboto"; font-size: 14px; color: white; }
+.flex-container > div {width: 200px; text-align: center;}
+.button {background-color: inherit; border: none; border-radius: 5px; padding:10px 24px; text-align: center; display: inline-block; font-size: 16px; cursor: pointer;}
+.button:hover {background-color: #FBF0CB;}   
+.button:active {background-color: #ffe48b;}                                                                                                                                                                                                                                      
+.desc {display: flex; justify-content: center; align-items: center; padding-top: 30px;}
+.desc pre {display: inline-block; text-align: left; max-width: 800px;}
 pre {font-family: "Roboto" ; font-size: 18px; line-height: 2.25;}
 
-#grad2 {height: 1800px; background-image: linear-gradient(white,#ffe48b, white);}
-.grid-container {padding: 100px; display: grid; grid-row-gap: 100px; grid-template-columns: auto; align-content: space-evenly;}
-h3 {font-family: "Roboto Slab"; font-size: 18px; letter-spacing: 2pt;}
-.next {background-color: inherit; color: black; padding: 5px 10px;}
-.round {border-radius: 50%;}
-.next:hover {text-decoration: none; background-color: #ffe48b;}    
-    
+
+h3 {font-family: "Roboto Slab"; font-size: 18px; letter-spacing: 4pt;}
 .container {position:relative; text-align: center;}
-.centered {position: absolute; bottom: 450px; width: 90%; left: 50%; transform: translate(-50%);}
+.centered {position: absolute; top: 50px; width: 90%; left: 50%; transform: translate(-50%);}
 .footer a {padding: 18px; font-family: "Roboto Slab"; font-size: 18px; color: black}
+
+
+
+
+
+
+
+
+
 
