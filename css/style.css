@@ -1,3 +1,4 @@
+a {outline: none; }
 #grad1 {height: 750px; background-image: linear-gradient(white, #F49587, white);}
 h1 {font-family: "Roboto Slab"; font-weight: normal; letter-spacing: 6pt; margin-left: 14px;}
 .header {padding: 50px;}
@@ -13,13 +14,13 @@ p {font-family: "Roboto" ; font-size: 18px; line-height: 2.25;}
 #grad2 {height: 750px; background-image: linear-gradient(white,#ffe48b, white);}
 h2 {font-family: "Roboto Slab"; font-size: 32px; letter-spacing: 6pt; text-align: center; line-height: 2;}
 .flex-container {display: flex; justify-content: center;}
-.flex-container > div {width: 200px; text-align: center;}
-
-
+.flex-container ul {display: flex;}
+.flex-container ul li {list-style-type: none; width: 200px; text-align: center;}
+.flex-container ul li a {color: black}
 .button {background-color: inherit; border: none; border-radius: 5px; padding:10px 24px; text-align: center; display: inline-block; font-size: 16px; cursor: pointer;}
 .button:hover {background-color: #FBF0CB;}   
-.button:active {background-color: #ffe48b;}                                                                                                                                                                                                                                      
-.desc {display: flex; justify-content: center; align-items: center; padding-top: 30px;}
+.button.active {background-color: #FBF0CB;}                                                                                                                                                                                                                                      
+.desc {display: flex; justify-content: center; align-items: center;}
 .desc pre {display: inline-block; text-align: left; max-width: 800px;}
 pre {font-family: "Roboto" ; font-size: 18px; line-height: 2.25;}
 
@@ -27,6 +28,19 @@ pre {font-family: "Roboto" ; font-size: 18px; line-height: 2.25;}
 h3 {font-family: "Roboto Slab"; font-size: 18px; letter-spacing: 4pt;}
 .container {position:relative; text-align: center;}
 .centered {position: absolute; top: 50px; width: 90%; left: 50%; transform: translate(-50%);}
+#myBtn:hover {background-color: #8FD9EB;}
+#myBtn {
+    display: none;
+    position: fixed;
+    Top: 350px; left: 50%; right: 50%;
+    font-size: 32px;
+    border: none;
+    outline: none;
+    background-color: inherit;
+    color: black;
+    cursor: pointer;
+    scroll-padding-block: 5px;
+    border-radius: 5px;}
 .footer a {padding: 18px; font-family: "Roboto Slab"; font-size: 18px; color: black}
 
 

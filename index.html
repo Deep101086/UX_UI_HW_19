@@ -5,11 +5,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/style.css">
     <title>About - Deep Shikha</title>
-    <style>
-    </style>
+    <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>   
  </head>
- <body>
-   
+ 
+ <body> 
+
    <div id="grad1">
       <div class="header">
              <h1>DEEP SHIKHA</h1>
@@ -35,39 +36,63 @@
       <div class="header">
          <h2>MY WORK EXPERIENCE RANGES FROM PRODUCT DESIGN TO MARKETING</h2>
       </div>
-      <div class="flex-container">
-      <div class="title">
-          <div class="img">
-            <img src="images/H.jpg" style= "height: 140px; width: 140px; border-radius: 120px;">
-          </div>
-            <div class="button">Product Designer</div>
-      </div>
-      <div class="title">
-          <div class="img">
-            <img src="images/I.jpg" style= "height: 140px; width: 140px; border-radius: 120px;">
-          </div>
-            <div class="button">Category Designer</div>
-      </div>
-      <div class="title">
-          <div class="img">
-            <img src="images/N.jpg" style= "height: 140px; width: 140px; border-radius: 120px;">
-          </div>
-            <div class="button">Product Manager</div>
-      </div>
-      <div class="title">
-          <div class="img"> 
-            <img src="images/Aeldra.jpg" style= "height: 140px; width: 140px; border-radius: 120px;">  
-          </div>
-            <div class="button">Freelance Designer</div>
-      </div>
-      </div>
-      <div class="desc">
-            <pre>2010 - 2012 &#x2007 &#8226 &#x2007 Hidesign &#x2007 &#8226 &#x2007 India
+      <div id="tabs">
+         <div class="flex-container">
+            <ul>
+               <li><a href="#tabs-1">
+                     <div class="img">
+                        <img src="images/H.jpg" style= "height: 140px; width: 140px; border-radius: 120px;">
+                     </div>
+                     <div class="button">Product Designer</div>
+                  </a>
+               </li>
+               <li><a href="#tabs-2">
+                     <div class="img">
+                        <img src="images/I.jpg" style= "height: 140px; width: 140px; border-radius: 120px;">
+                     </div>
+                     <div class="button">Category Designer</div>
+                  </a>
+               </li>
+               <li><a href="#tabs-3">
+                     <div class="img">
+                        <img src="images/N.jpg" style= "height: 140px; width: 140px; border-radius: 120px;">
+                     </div>
+                     <div class="button">Product Manager</div>
+                  </a>
+               </li>
+               <li><a href="#tabs-4">
+                     <div class="img"> 
+                        <img src="images/Aeldra.jpg" style= "height: 140px; width: 140px; border-radius: 120px;">  
+                     </div>
+                     <div class="button">Freelance Designer</div>  
+                  </a>
+               </li>
+            </ul>   
+         </div>
+         <div id="tabs-1" class="desc">
+         <pre>2010 - 2012 &#x2007 &#8226 &#x2007 Hidesign &#x2007 &#8226 &#x2007 India
 I monitored complete product development life cycle, from design and research, to prototype 
 development for a leading manufacturer and retailer of handcrafted leather products.</pre>
+         </div>  
+         <div id="tabs-2" class="desc">
+         <pre>2012 - 2015 &#x2007 &#8226 &#x2007 Industree &#x2007 &#8226 &#x2007 India
+I managed the design and development of lifestyle products for export to brands like IKEA,
+T.J.Maxx, Habitat, for a not-for-profit organization established to provide market access 
+and support to rural artisans in India.</pre>
+         </div>
+         <div id="tabs-3" class="desc">
+         <pre>2016 - 2018 &#x2007 &#8226 &#x2007 Nygard &#x2007 &#8226 &#x2007 Canada
+I collaborated with Design and Product Development team to drive impact through the product 
+lifecycle. I demonstrated deep analytical insights to inform and influence product roadmaps 
+and business decisions to help improve the consumer experience.</pre>
+         </div>
+         <div id="tabs-4" class="desc">
+         <pre>2019 - 2020 &#x2007 &#8226 &#x2007 Freelance Designer &#x2007 &#8226 &#x2007 U.S.
+I collaborated in the website and mobile app design of a financial banking startup - Aeldra as 
+well as other graphic design projects involving logo design and illustration projects.</pre>
+         </div>
       </div>
-   </div>
-      
+   </div>  
    <div class="container">
       <img src="images/Footer.jpg" style= "height: 700px; width: 100%;">
          <div class="centered">
@@ -78,11 +103,13 @@ development for a leading manufacturer and retailer of handcrafted leather produ
                <a href="https://www.linkedin.com/in/deep10/" style="margin-bottom: 50px;" target="_blank">LINKEDIN</a>
                <a href="mailto:deepshikha10@gmail.com" style="margin-bottom: 50px;">CONTACT</a>
             </div>
+            <button onclick="topFunction()" id="myBtn" title="Go to top">&#10548;</button>
          </div>  
          <div class="bottom">
             &#169; Deep Shikha &#x2007 &#8226 &#x2007 All illustrations on this webpage are done by Deep Shikha. &#x2007 &#8226 &#x2007  Medium: Pigma Micron Pen on Paper.
          </div>   
-   </div>    
+   </div> 
+      
  </body>
  <script src="js/index.js"></script>
  </html>
